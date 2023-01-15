@@ -1,0 +1,69 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: auto;
+    font-family: 'Roboto Condensed', sans-serif;
+    background-image: url(PHOTOS/DSC02984.jpeg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+
+/* HEADER */
+header {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 30px 0px;
+}
+
+.headerLinks > a {
+    text-decoration: none;
+    color: white;
+    padding: 1rem;
+    text-shadow: 0px 1px 5px rgba(0, 0, 0, 0.500)
+}
+
+.headerLinks > a:hover {
+    color: red;
+}
+
+#headerLogo {
+    width: 300px;
+}
+
+/* MAIN SECTION */
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 1000px;
+}
+
+.container > h1 {
+    font-size: 5rem;
+    color: azure;
+}
+
+/* SECTION */
+section {
+    display: flex;
+    /* border: 3px solid red; */
+    background-color: rgb(255, 255, 255);
+    height: 500px;
+}
+
+.statement {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 300px;
+    text-align: center;
+}
+
+.statement > h2 {
+    font-size: 50px;
+}
