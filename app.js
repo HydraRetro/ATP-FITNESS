@@ -48,8 +48,12 @@ prevSlide.addEventListener("click", function () {
     });
 });
 
-// REQUEST BUTTON
 
+
+
+
+
+// REQUEST BUTTON
 document.getElementById("request-btn").onclick = function () {
     location.href = "contact.html";
 };
