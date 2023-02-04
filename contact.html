@@ -10,15 +10,35 @@
 </head>
 
 <body>
+    <!-- HEADER -->
+    <header>
+        <div class=" headerLinks">
+            <a href="trainers.html">PERSONAL TRAINING</a>
+            <a href="">GROUP CLASSES</a>
+            <a href="">THE GYM</a>
+        </div>
+
+        <div class="headerImage">
+            <a href="index.html">
+                <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo">
+            </a>
+        </div>
+
+        <div class="headerLinks">
+            <a href="mission.html">OUR MISSION</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
+
+    </header>
+    <!-- MAIN CONTAINER -->
     <div class="container">
         <div id="container">
             <h1>&bull; Request Your Free Consultation&bull;</h1>
             <div class="underline">
             </div>
             <div class="icon_wrapper">
-                <svg xmlns="http://www.w3.org/2000/svg" class="icon icon-tabler icon-tabler-barbell" width="24"
-                    height="24" viewBox="0 0 24 24" stroke-width="2" stroke="currentColor" fill="none"
-                    stroke-linecap="round" stroke-linejoin="round">
+                <svg xmlns="http://www.w3.org/2000/svg" class="icon-barbell" width="24" height="24" viewBox="0 0 24 24"
+                    stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
                     <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
                     <path d="M2 12h1"></path>
                     <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2"></path>
@@ -30,7 +50,10 @@
                 </svg>
             </div>
             <div class="paragraph">
-                <p>We know that finding that finding a personal trainer, especially online, can be a difficult task.  Let us help you out by setting you up with a trainer for a Free consultation. This is a day to meet and greet with your trainer, go over your goals, and go through a workout to assess your current fitness levels. No Pressure, just a focus on you!</p>
+                <p>We know that finding that finding a personal trainer, especially online, can be a difficult task. Let
+                    us help you out by setting you up with a trainer for a Free consultation. This is a day to meet and
+                    greet with your trainer, go over your goals, and go through a workout to assess your current fitness
+                    levels. No Pressure, just a focus on you!</p>
             </div>
             <form action="#" method="post" id="contact_form">
                 <div class="name">
@@ -59,8 +82,8 @@
 
                 <div class="goals">
                     Fitness Goals (check all that apply)
-                    <div><input type="checkbox" name="goals-1" value="goals-1" id="goals-1" checked>
-                        <label for="check-1">Weight Loss</label>
+                    <div><input type="checkbox" name="goals-1" value="goals-1" id="goals-1">
+                        <label for="goals-1">Weight Loss</label>
                     </div>
                     <div><input type="checkbox" name="goals-2" value="goals-2" id="goals-2">
                         <label for="goals-2">Strength Gain</label>
@@ -81,7 +104,7 @@
 
                 <div class="availability">
                     Best Training Availability (check all that apply)
-                    <div><input type="checkbox" name="check-1" value="check-1" id="check-1" checked>
+                    <div><input type="checkbox" name="check-1" value="check-1" id="check-1">
                         <label for="check-1">Early morning 6am-9am</label>
                     </div>
                     <div><input type="checkbox" name="check-2" value="check-2" id="check-2">
@@ -108,9 +131,29 @@
                     <input type="submit" value="Send Message" id="form_button" />
                 </div>
 
-            </form><!-- // End form -->
-        </div><!-- // End #container -->
+            </form>
+        </div>
     </div>
+
+    <!-- FOOTER -->
+    <footer class="footer-1">
+
+        <p>San Ramon’s Elite Personal Training Gym <br>
+            3470 Fostoria Way Suite B San Ramon Ca. 94583 <br>
+            Contact Baron at (925)759-8021</p>
+
+        <p>Made by HydraRetro | &copy; ATP FITNESS 2023</p>
+
+        <a href="https://github.com/HydraRetro/ATP-FITNESS" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                </path>
+            </svg></a>
+
+    </footer>
 
 </body>
 
