@@ -57,3 +57,6 @@ prevSlide.addEventListener("click", function () {
 document.getElementById("request-btn").onclick = function () {
     location.href = "contact.html";
 };
+
+
+// IMAGE CAROUSEL
