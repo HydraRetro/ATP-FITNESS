@@ -46,7 +46,7 @@ header {
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
-    
+
     /* From https://css.glass */
     background: rgba(0, 0, 0, 0.6);
     border-radius: 16px;
@@ -66,6 +66,10 @@ h2 {
     text-align: center;
     width: 650px;
 }
+
+
+
+
 
 /* FOOTER */
 .footer-1 {

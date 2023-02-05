@@ -46,7 +46,7 @@ header {
     max-width: 800px;
     margin: 50px auto;
     padding: 30px;
-    
+
     /* From https://css.glass */
     background: rgba(0, 0, 0, 0.6);
     border-radius: 16px;
@@ -65,6 +65,28 @@ p,
 h2 {
     text-align: center;
     width: 650px;
+}
+
+/* BUTTON */
+.container>button {
+    background-color: #e09f3e;
+    border: none;
+    border-radius: 10px;
+    color: whitesmoke;
+    padding: 16px 32px;
+    text-align: center;
+    font-size: 16px;
+    margin: 4px 2px;
+    opacity: 0.7;
+    transition: 0.3s;
+    display: inline-block;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.container>button:hover {
+    box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
+    opacity: 1
 }
 
 /* FOOTER */
