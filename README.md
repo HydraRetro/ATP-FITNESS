@@ -3,9 +3,8 @@
 A website for the private gym, ATP Fitness. Located in San Ramon, CA.
 
 ## NOTES
-I copied the layout of their existing website: https://www.atpfitnesssanramon.com/
 
-My goal was to take their website and improve it based on what ive learned so far.
+My goal was to take their existing website (https://www.atpfitnesssanramon.com/) and improve it based on what ive learned so far.
 
 
 ## ABOUT
