@@ -59,4 +59,3 @@ document.getElementById("request-btn").onclick = function () {
 };
 
 
-// IMAGE CAROUSEL
