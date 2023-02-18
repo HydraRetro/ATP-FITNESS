@@ -19,6 +19,7 @@ header {
     justify-content: space-evenly;
     align-items: center;
     padding: 10px 0px;
+    font-size: 1.1rem;
 }
 
 .headers {
@@ -47,7 +48,7 @@ header {
 }
 
 .headers>a:hover {
-    color: #540b0e;
+    color: #e09f3e;
 }
 
 #headerLogo {
@@ -138,7 +139,7 @@ h1>span {
     color: whitesmoke;
     background-color: #335c67;
     height: 500px;
-    padding: 50px 0;
+    padding: 50px 0px 75px 0px;
 }
 
 .statement {
@@ -151,15 +152,15 @@ h1>span {
     color: #E09F3E;
 }
 
-.statement>button {
+#free-button {
     background-color: #e09f3e;
     border: none;
     border-radius: 10px;
     color: whitesmoke;
-    padding: 16px 32px;
+    height: 50px;
+    width: 400px;
     text-align: center;
-    font-size: 16px;
-    margin: 4px 2px;
+    font-size: 1rem;
     opacity: 0.7;
     transition: 0.3s;
     display: inline-block;
@@ -167,7 +168,7 @@ h1>span {
     cursor: pointer;
 }
 
-.statement>button:hover {
+#free-button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     opacity: 1
 }
@@ -199,16 +200,10 @@ h1>span {
     position: relative;
     background-color: #540b0e;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
-}
-
-.detail-group {
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    width: 1500px;
-    padding: 50px 0px;
+    padding: 60px 30px;
+    gap: 2rem;
 }
 
 .details {
@@ -219,7 +214,7 @@ h1>span {
     text-align: center;
     width: 250px;
     height: 350px;
-    padding: 30px 40px;
+    padding: 40px 40px;
     color: whitesmoke;
 
     /* From https://css.glass */
@@ -252,7 +247,7 @@ h1>span {
     height: 50px;
     width: 200px;
     text-align: center;
-    font-size: 16px;
+    font-size: 1rem;
     opacity: 0.7;
     transition: 0.3s;
     display: inline-block;
@@ -304,7 +299,7 @@ h1>span {
     z-index: 10px;
     cursor: pointer;
     background-color: #fff;
-    font-size: 18px;
+    font-size: 1rem;
 }
 
 .btn:active {

@@ -47,7 +47,7 @@ header {
 }
 
 .headers>a:hover {
-    color: #540b0e;
+    color: #e09f3e;
 }
 
 #headerLogo {
@@ -85,7 +85,7 @@ h2 {
 }
 
 /* BUTTON */
-.container>button {
+.container>a>button {
     background-color: #e09f3e;
     border: none;
     border-radius: 10px;
@@ -101,7 +101,7 @@ h2 {
     cursor: pointer;
 }
 
-.container>button:hover {
+.container>a>button:hover {
     box-shadow: 0 12px 16px 0 rgba(0, 0, 0, 0.24), 0 17px 50px 0 rgba(0, 0, 0, 0.19);
     opacity: 1
 }
