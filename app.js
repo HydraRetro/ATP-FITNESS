@@ -54,8 +54,8 @@ prevSlide.addEventListener("click", function () {
 
 
 // REQUEST BUTTON
-document.getElementById("request-btn").onclick = function () {
-    location.href = "contact.html";
-};
+// document.getElementById("request-btn").onclick = function () {
+//     location.href = "contact.html";
+// };
 
 
