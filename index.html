@@ -6,37 +6,39 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ATP FITNESS</title>
-    <link rel="stylesheet" href="CSS/styles.css"">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
-<body>
+<body style=" background-image: url(../PHOTOS/DSC02984.jpeg)">
     <!-- HEADER -->
-    <header>
-        <div class=" headers header-1">
-    <a href="trainers.html">PERSONAL TRAINING</a>
-    <a href="fitCamp.html">GROUP CLASSES</a>
-    <a href="gym.html">THE GYM</a>
-    </div>
-    <div class="headers header-2">
-        <a href="index.html">
-            <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo">
-        </a>
-    </div>
-    <div class="headers header-3">
-        <a href="mission.html">OUR MISSION</a>
-        <a href="contact.html">CONTACT US</a>
-    </div>
+    <header class=" d-flex justify-content-evenly align-items-center py-3">
+        <div id="header-divs">
+            <a href="trainers.html">PERSONAL TRAINING</a>
+            <a href="fitCamp.html">GROUP CLASSES</a>
+            <a href="gym.html">THE GYM</a>
+        </div>
+        <div id="header-divs">
+            <a href="index.html">
+                <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo" width="300px">
+            </a>
+        </div>
+        <div id="header-divs">
+            <a href="mission.html">OUR MISSION</a>
+            <a href="contact.html">CONTACT US</a>
+        </div>
     </header>
 
     <!-- MAIN CONTAINER -->
-    <div class="container">
-        <h1>Achieve Your <span>True</span> Potential</h1>
+    <div id="mainContainer" class="d-flex justify-content-center align-items-center">
+        <h1 class="align-self-center">Achieve Your <span>True</span> Potential</h1>
     </div>
 
     <!-- SECTION 1 -->
-    <section class="section-1">
-        <div class="statement">
-            <h2>
+    <div id="statement" class="container-fluid">
+        <div class="d-flex flex-column text-center p-5 container">
+            <h2 style="color: #e09f3e;">
                 &bull; San Ramon’s Elite Personal Training Gym &bull;
             </h2>
             <p>
@@ -53,76 +55,80 @@
                 increase athletic performance or to just feel more confident in your body we are here to help! We look
                 forward to meeting you!
             </p>
-            <a href="contact.html"><button id="free-button">REQUEST A FREE 1 HOUR CONSULTATION</button></a>
-
+            <a href="contact.html"><button type="button" class="btn btn-outline-warning">REQUEST A FREE 1 HOUR
+                    CONSULTATION</button></a>
         </div>
-        <div class="custom-shape-divider-bottom-1675408729">
-            <svg data-name="Layer 1" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 120"
-                preserveAspectRatio="none">
-                <path
-                    d="M0,0V46.29c47.79,22.2,103.59,32.17,158,28,70.36-5.37,136.33-33.31,206.8-37.5C438.64,32.43,512.34,53.67,583,72.05c69.27,18,138.3,24.88,209.4,13.08,36.15-6,69.85-17.84,104.45-29.34C989.49,25,1113-14.29,1200,52.47V0Z"
-                    opacity=".25" class="shape-fill"></path>
-                <path
-                    d="M0,0V15.81C13,36.92,27.64,56.86,47.69,72.05,99.41,111.27,165,111,224.58,91.58c31.15-10.15,60.09-26.07,89.67-39.8,40.92-19,84.73-46,130.83-49.67,36.26-2.85,70.9,9.42,98.6,31.56,31.77,25.39,62.32,62,103.63,73,40.44,10.79,81.35-6.69,119.13-24.28s75.16-39,116.92-43.05c59.73-5.85,113.28,22.88,168.9,38.84,30.2,8.66,59,6.17,87.09-7.5,22.43-10.89,48-26.93,60.65-49.24V0Z"
-                    opacity=".5" class="shape-fill"></path>
-                <path
-                    d="M0,0V5.63C149.93,59,314.09,71.32,475.83,42.57c43-7.64,84.23-20.12,127.61-26.46,59-8.63,112.48,12.24,165.56,35.4C827.93,77.22,886,95.24,951.2,90c86.53-7,172.46-45.71,248.8-84.81V0Z"
-                    class="shape-fill"></path>
-            </svg>
+    </div>
+
+    <!-- CARDS -->
+    <div class="card d-flex flex-lg-row flex-column justify-content-evenly align-items-center text-center p-5"
+        style="background-color: #540b0e; border-radius: 0;">
+        <div id="cardContainer" class="card">
+            <img class="card-img-top" src="PHOTOS/DSC02984.jpeg" alt="Card image">
+            <div class="card-body">
+                <p class="card-text">Dedicated to your success! Our team of personal trainers are here to help you
+                    succeed.</p>
+                <a href="#" class="btn btn-outline-warning px-5">MEET THE TEAM</a>
+            </div>
         </div>
-    </section>
-
-    <!-- SECTION 2 -->
-    <section class="section-2">
-            <div class="details">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/1c8dca3c-2cbe-4b09-8181-a7fc76313409/Baron4.jpg?format=300w"
-                    alt="">
-                <p>Dedicated to your success! Our team of personal trainers are here to help you succeed</p>
-                <a href="trainers.html"><button class="detail-button">MEET THE TEAM</button></a>
+        <div id="cardContainer" class="card">
+            <img class="card-img-top" src="PHOTOS/DSC02984.jpeg" alt="Card image">
+            <div class="card-body">
+                <p class="card-text">A 5,000 Sf personal training facility built to help you achieve all of you fitness
+                    goals.</p>
+                <a href="#" class="btn btn-outline-warning px-5">THE GYM</a>
             </div>
-            <div class="details">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/adb58959-109d-42b5-88f5-8a290c119774/Gym1.jpg?format=500w"
-                    alt="">
-                <p>A 5,000 Sf personal training facility built to help you achieve all of you fitness goals. </p>
-                <a href="gym.html"><button class="detail-button">THE GYM</button></a>
-            </div>
-            <div class="details">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/1650521350318-HZV71X73BLTIGA0VBP2N/Daniel3.jpg?format=2500w"
-                    alt="">
-                <p>ATP Fitness lives by a motto of our own. Helping you achieve your true Potential is our mission</p>
-                <a href="mission.html"><button class="detail-button">OUR MISSION</button></a>
-            </div>
-
-    </section>
-
-    <!-- SECTION 3 -->
-    <section class="section-3">
-        <div class="slider">
-            <div class="slide">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/1650522083395-2QZPVSZ9SBIA14QVJLF1/Amy5.jpg?format=1500w"
-                    alt="" />
-            </div>
-            <div class="slide">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/1650522207679-9X0G2UKJI3EICS8ZK41D/Heather1edit.jpg?format=1500w"
-                    alt="" />
-            </div>
-            <div class="slide">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/1650521350318-HZV71X73BLTIGA0VBP2N/Daniel3.jpg?format=2500w"
-                    alt="" />
-            </div>
-            <div class="slide">
-                <img src="https://images.squarespace-cdn.com/content/v1/5c196f431137a698493fbec3/1650521448613-BPM4W7ZZ1HZ16ZSJFPWT/Shayan1.jpg?format=1500w"
-                    alt="" />
-            </div>
-
-            <button class="btn btn-next"> > </button>
-            <button class="btn btn-prev">
-                < </button>
         </div>
-    </section>
+        <div id="cardContainer" class="card">
+            <img class="card-img-top" src="PHOTOS/DSC02984.jpeg" alt="Card image">
+            <div class="card-body">
+                <p class="card-text">ATP Fitness lives by a motto of our own. Helping you achieve your true Potential is
+                    our mission.</p>
+                <a href="#" class="btn btn-outline-warning px-5">OUR MISSION</a>
+            </div>
+        </div>
+    </div>
+
+    <!-- Carousel -->
+    <div id="carouselExampleIndicators" class="carousel slide">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+            <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3"
+                aria-label="Slide 4"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="PHOTOS/CAROUSEL/ATP_FITNESS_20220305_ (198 of 332).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="PHOTOS/CAROUSEL/ATP_FITNESS_20220305_ (27 of 332).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="PHOTOS/CAROUSEL/ATP_FITNESS_20220305_ (308 of 332).jpg" class="d-block w-100" alt="...">
+            </div>
+            <div class="carousel-item">
+                <img src="PHOTOS/CAROUSEL/ATP_FITNESS_20220305_ (327 of 332).jpg" class="d-block w-100" alt="...">
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
 
     <!-- FOOTER -->
-    <footer class="footer-1">
+    <footer class="container-fluid text-center p-5" style="background-color: #540b0e;">
         <p>San Ramon’s Elite Personal Training Gym <br>
             3470 Fostoria Way Suite B San Ramon Ca. 94583 <br>
             Contact Baron at (925)759-8021</p>
@@ -139,7 +145,10 @@
 
     <!-- SCRIPT -->
     <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
-    </body>
+</body>
 
 </html>

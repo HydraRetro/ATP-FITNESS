@@ -6,31 +6,34 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Fit Camp</title>
-    <link rel="stylesheet" href="CSS/fitCamp.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous">
+    <link rel="stylesheet" href="CSS/styles.css">
 </head>
 
-<body>
+<body
+    style="background-image: url(https://images.unsplash.com/photo-1604066811954-4ad8868c65c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);">
     <!-- HEADER -->
-    <header>
-        <div class=" headers header-1">
+    <header class=" d-flex justify-content-evenly align-items-center py-3">
+        <div id="header-divs">
             <a href="trainers.html">PERSONAL TRAINING</a>
             <a href="fitCamp.html">GROUP CLASSES</a>
             <a href="gym.html">THE GYM</a>
         </div>
-        <div class="headers header-2">
+        <div id="header-divs">
             <a href="index.html">
-                <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo">
+                <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo" width="300px">
             </a>
         </div>
-        <div class="headers header-3">
+        <div id="header-divs">
             <a href="mission.html">OUR MISSION</a>
             <a href="contact.html">CONTACT US</a>
         </div>
     </header>
 
     <!-- MAIN CONTAINER -->
-    <div class="container">
-        <h1>A Gym Built For You</h1>
+    <div id="glassContainer" class="container d-flex flex-column justify-content-evenly align-items-center my-5 p-5">
+        <h1 style="color: #e09f3e;">A Gym Built For You</h1>
         <p>ATP Fitness is a newly upgraded 5000 SF private personal training gym in San Ramon. Built with your goals in
             mind and independent trainer driven our focus is strictly on helping you reach your fitness goals. With
             memberships only offered to current clients we cut out the noise, clutter, and non-sense associated with
@@ -45,7 +48,7 @@
             <li>Cardio equipment for steady state or HIIT Training</li>
         </ul>
 
-        <h2>For Our Members</h2>
+        <h2 style="color: #e09f3e;">For Our Members</h2>
         <iframe width="640" height="360" src="https://www.youtube.com/embed/2Q5Fj9cj9ow"
             title="ATP Fitness | Private Personal Training Gym" frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
@@ -64,7 +67,7 @@
 
 
     <!-- FOOTER -->
-    <footer class="footer-1">
+    <footer class="container-fluid text-center p-5" style="background-color: #540b0e;">
         <p>San Ramon’s Elite Personal Training Gym <br>
             3470 Fostoria Way Suite B San Ramon Ca. 94583 <br>
             Contact Baron at (925)759-8021</p>
