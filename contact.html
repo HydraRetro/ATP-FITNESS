@@ -13,6 +13,7 @@
 
 <body
     style="background-image: url(https://images.unsplash.com/photo-1576678927484-cc907957088c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1287&q=80);">
+
     <!-- HEADER -->
     <header class=" d-flex justify-content-evenly align-items-center py-3">
         <div id="header-divs">
@@ -41,22 +42,23 @@
         <form class="row g-3">
             <div class="col-md-6">
                 <label for="firstName" class="form-label">First Name</label>
-                <input type="text" class="form-control" id="firstName" required>
+                <input type="text" class="form-control bg-transparent text-light" id="firstName" required>
             </div>
             <div class="col-md-6">
                 <label for="lastName" class="form-label">Last Name</label>
-                <input type="text" class="form-control" id="lastName" required>
+                <input type="text" class="form-control bg-transparent text-light" id="lastName" required>
             </div>
             <div class="col-md-8">
                 <label for="emailInfo" class="form-label">E-mail</label>
-                <input type="email" class="form-control" required>
+                <input type="email" class="form-control bg-transparent text-light" required>
             </div>
             <div class="col-md-4">
                 <label for="phoneNumber" class="form-label">Phone Number</label>
-                <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (925) 867-5309">
+                <input type="text" class="form-control bg-transparent text-light" id="phoneNumber"
+                    placeholder="+1 (925) 867-5309">
             </div>
             <div class="col-md-12">
-                <select class="col-md-12 form-select" aria-label="Default select example">
+                <select class="col-md-12 form-select bg-transparent text-light" aria-label="Default select example">
                     <option selected>What Are You Most Interested In?</option>
                     <option value="1">1 on 1 Personal Training</option>
                     <option value="2">Group Classes</option>
@@ -136,10 +138,10 @@
             </div>
             <div class="col-md-12">
                 <label for="comments" class="form-label">Comments</label>
-                <textarea class="form-control" id="comments" rows="3" required></textarea>
+                <textarea class="form-control bg-transparent text-light" id="comments" rows="3" required></textarea>
             </div>
             <div class="col-md-12">
-                <button type="submit" class="btn btn-primary">SUBMIT</button>
+                <a href="contact.html"><button type="submit" class="btn btn-outline-warning">SUBMIT</button></a>
             </div>
         </form>
 
