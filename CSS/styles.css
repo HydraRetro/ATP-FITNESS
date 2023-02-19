@@ -10,7 +10,7 @@ body {
     background-position: center;
 }
 
-                                    /* HEADER */
+/* HEADER */
 header>div>a {
     color: whitesmoke;
     text-decoration: none;
@@ -28,7 +28,7 @@ header>div>a:hover {
     width: 400px;
 }
 
-                                    /* HOME PAGE */
+/* HOME PAGE */
 
 /* MAIN SECTION */
 #mainContainer {
@@ -100,9 +100,28 @@ header>div>a:hover {
 
 
 /* STATEMENT SECTION */
-#statement {
-    background-color: #335c67;
+
+/* WAVE DESIGN */
+.wavyGang {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
 }
+
+.wavyGang svg {
+    position: relative;
+    display: block;
+    width: calc(129% + 1.3px);
+    height: 101px;
+}
+
+.wavyGang .shape-fill {
+    fill: #335C67;
+}
+
 
 /* CARD GROUP */
 #cardContainer {
@@ -134,7 +153,7 @@ header>div>a:hover {
     color: #e09f3e;
 }
 
-                                            /* GLASS CONTAINER */
+/* GLASS CONTAINER */
 #glassContainer {
     max-width: 800px;
 
@@ -147,7 +166,7 @@ header>div>a:hover {
     border: 1px solid rgba(0, 0, 0, 0.08);
 }
 
-                                            /* TRAINERS GALLERY */
+/* TRAINERS GALLERY */
 
 /* Utilities */
 .auto-grid {
@@ -288,8 +307,17 @@ header>div>a:hover {
 }
 
 
+/* CONTACT */
+.form-control {
+    color: whitesmoke;
+    border-color: #e09f3e;
+}
 
-                                    /* FOOTER */
+.form-select {
+    border-color: #e09f3e;
+}
+
+/* FOOTER */
 /* GITHUB ICON */
 .icon {
     color: whitesmoke;
