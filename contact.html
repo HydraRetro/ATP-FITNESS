@@ -34,48 +34,140 @@
     <!-- MAIN CONTAINER -->
     <div id="glassContainer" class="container d-flex flex-column justify-content-evenly align-items-center my-5 p-5">
         <h1>&bull; Request Your Free Consultation&bull;</h1>
-        <svg xmlns="http://www.w3.org/2000/svg" class="icon-barbell" width="24" height="24" viewBox="0 0 24 24"
-            stroke-width="2" stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-            <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-            <path d="M2 12h1"></path>
-            <path d="M6 8h-2a1 1 0 0 0 -1 1v6a1 1 0 0 0 1 1h2"></path>
-            <path d="M6 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-10a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1z"></path>
-            <path d="M9 12h6"></path>
-            <path d="M15 7v10a1 1 0 0 0 1 1h1a1 1 0 0 0 1 -1v-10a1 1 0 0 0 -1 -1h-1a1 1 0 0 0 -1 1z"></path>
-            <path d="M18 8h2a1 1 0 0 1 1 1v6a1 1 0 0 1 -1 1h-2"></path>
-            <path d="M22 12h-1"></path>
-        </svg>
         <p>We know that finding that finding a personal trainer, especially online, can be a difficult task. Let
             us help you out by setting you up with a trainer for a Free consultation. This is a day to meet and
             greet with your trainer, go over your goals, and go through a workout to assess your current fitness
             levels. No Pressure, just a focus on you!</p>
+        <form class="row g-3">
+            <div class="col-md-6">
+                <label for="firstName" class="form-label">First Name</label>
+                <input type="text" class="form-control" id="firstName" required>
+            </div>
+            <div class="col-md-6">
+                <label for="lastName" class="form-label">Last Name</label>
+                <input type="text" class="form-control" id="lastName" required>
+            </div>
+            <div class="col-md-8">
+                <label for="emailInfo" class="form-label">E-mail</label>
+                <input type="email" class="form-control" required>
+            </div>
+            <div class="col-md-4">
+                <label for="phoneNumber" class="form-label">Phone Number</label>
+                <input type="text" class="form-control" id="phoneNumber" placeholder="+1 (925) 867-5309">
+            </div>
+            <div class="col-md-12">
+                <select class="col-md-12 form-select" aria-label="Default select example">
+                    <option selected>What Are You Most Interested In?</option>
+                    <option value="1">1 on 1 Personal Training</option>
+                    <option value="2">Group Classes</option>
+                </select>
+            </div>
+            <h5>Fitness Goals (check all that apply)</h5>
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="weightLoss">
+                    <label class="form-check-label" for="weightLoss">
+                        Weight Loss
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="strengthGain">
+                    <label class="form-check-label" for="strengthGain">
+                        Strength Gain
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="muscleGain">
+                    <label class="form-check-label" for="muscleGain">
+                        Muscle Gain
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="getToned">
+                    <label class="form-check-label" for="getToned">
+                        Get Toned
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="lifestyleChange">
+                    <label class="form-check-label" for="lifestyleChange">
+                        Lifestyle Change
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="nutrition">
+                    <label class="form-check-label" for="nutrition">
+                        Nutrition
+                    </label>
+                </div>
+            </div>
+            <h5>Best Training Availability (check all that apply)</h5>
+            <div class="col-md-12">
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="earlyMorning">
+                    <label class="form-check-label" for="earlyMorning">
+                        Early morning 6am-9am
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="lateMorning">
+                    <label class="form-check-label" for="lateMorning">
+                        Late morning 9am-12pm
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="earlyAfternoon">
+                    <label class="form-check-label" for="earlyAfternoon">
+                        Early afternoon 12pm-3pm
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="lateAfternoon">
+                    <label class="form-check-label" for="lateAfternoon">
+                        Late Afternoon 3pm-6pm
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="checkbox" value="" id="evening">
+                    <label class="form-check-label" for="evening">
+                        Evening 6pm-9pm
+                    </label>
+                </div>
+            </div>
+            <div class="col-md-12">
+                <label for="comments" class="form-label">Comments</label>
+                <textarea class="form-control" id="comments" rows="3" required></textarea>
+            </div>
+            <div class="col-md-12">
+                <button type="submit" class="btn btn-primary">SUBMIT</button>
+            </div>
+        </form>
 
 
-        
     </div>
 
 
-        <!-- FOOTER -->
-        <footer class="container-fluid text-center p-5" style="background-color: #540b0e;">
-            <p>San Ramon’s Elite Personal Training Gym <br>
-                3470 Fostoria Way Suite B San Ramon Ca. 94583 <br>
-                Contact Baron at (925)759-8021</p>
-            <p>Made by HydraRetro | &copy; ATP FITNESS 2023</p>
-            <a href="https://github.com/HydraRetro/ATP-FITNESS" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
-                    class="icon icon-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
-                    stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                    <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
-                    <path
-                        d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
-                    </path>
-                </svg></a>
-        </footer>
+    <!-- FOOTER -->
+    <footer class="container-fluid text-center p-5" style="background-color: #540b0e;">
+        <p>San Ramon’s Elite Personal Training Gym <br>
+            3470 Fostoria Way Suite B San Ramon Ca. 94583 <br>
+            Contact Baron at (925)759-8021</p>
+        <p>Made by HydraRetro | &copy; ATP FITNESS 2023</p>
+        <a href="https://github.com/HydraRetro/ATP-FITNESS" target="_blank"><svg xmlns="http://www.w3.org/2000/svg"
+                class="icon icon-github" width="24" height="24" viewBox="0 0 24 24" stroke-width="2"
+                stroke="currentColor" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                <path stroke="none" d="M0 0h24v24H0z" fill="none"></path>
+                <path
+                    d="M9 19c-4.3 1.4 -4.3 -2.5 -6 -3m12 5v-3.5c0 -1 .1 -1.4 -.5 -2c2.8 -.3 5.5 -1.4 5.5 -6a4.6 4.6 0 0 0 -1.3 -3.2a4.2 4.2 0 0 0 -.1 -3.2s-1.1 -.3 -3.5 1.3a12.3 12.3 0 0 0 -6.2 0c-2.4 -1.6 -3.5 -1.3 -3.5 -1.3a4.2 4.2 0 0 0 -.1 3.2a4.6 4.6 0 0 0 -1.3 3.2c0 4.6 2.7 5.7 5.5 6c-.6 .6 -.6 1.2 -.5 2v3.5">
+                </path>
+            </svg></a>
+    </footer>
 
-        <!-- SCRIPT -->
-        <script src="app.js"></script>
-        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
-            integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
-            crossorigin="anonymous"></script>
+    <!-- SCRIPT -->
+    <script src="app.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+        crossorigin="anonymous"></script>
 
 </body>
 
