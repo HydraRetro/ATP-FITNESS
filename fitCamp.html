@@ -14,34 +14,38 @@
 <body
     style="background-image: url(https://images.unsplash.com/photo-1604066811954-4ad8868c65c5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1548&q=80);">
     <!-- HEADER -->
-    <header class=" d-flex justify-content-evenly align-items-center py-3">
-        <div id="header-divs">
-            <a href="trainers.html">PERSONAL TRAINING</a>
-            <a href="fitCamp.html">GROUP CLASSES</a>
-            <a href="gym.html">THE GYM</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid fs-5">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="container collapse navbar-collapse justify-content-evenly align-items-center text-center p-3"
+                id="navbarNavAltMarkup">
+                <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                <a class="nav-link" href="trainers.html">PERSONAL TRAINING</a>
+                <a class="nav-link" href="fitCamp.html">GROUP CLASSES</a>
+                <a class="navbar-brand" href="index.html">
+                    <img src="PHOTOS/ATPfront1.png" alt="Bootstrap" width="300">
+                </a>
+                <a class="nav-link" href="gym.html">THE GYM</a>
+                <a class="nav-link" href="mission.html">OUR MISSION</a>
+                <a class="nav-link" href="contact.html">CONTACT US</a>
+            </div>
         </div>
-        <div id="header-divs">
-            <a href="index.html">
-                <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo" width="300px">
-            </a>
-        </div>
-        <div id="header-divs">
-            <a href="mission.html">OUR MISSION</a>
-            <a href="contact.html">CONTACT US</a>
-        </div>
-    </header>
+    </nav>
 
     <!-- MAIN CONTAINER -->
     <div id="glassContainer" class="container d-flex flex-column justify-content-evenly align-items-center my-5 p-5">
         <h1>ATP FitCamp</h1>
-        <p>Introducing ATP FitCamp! A premier group class schedule built to be the most well rounded fitness
+        <p class="text-center">Introducing ATP FitCamp! A premier group class schedule built to be the most well rounded fitness
             experience around. There will be 10 different weekly classes to choose from aimed at increasing strength
             and conditioning, muscle, cardiovascular output, weight loss, and mobility.</p>
         <iframe width="640" height="360" src="https://www.youtube.com/embed/ZtzO03cNyy4" title="ATP FitCamp"
             frameborder="0"
             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
             allowfullscreen></iframe>
-        <h2>Get your first class FREE and $39 Unlimited Class Pass for first month</h2>
+        <h2 class="pt-3 text-center">Get your first class FREE and $39 Unlimited Class Pass for first month</h2>
         <ol>
             <li>Click the button below</li>
             <li>Find the class you’d like to get started with</li>
