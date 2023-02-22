@@ -13,25 +13,30 @@
 
 <body style="background-image: url(PHOTOS/DSC02984.jpeg)">
     <!-- HEADER -->
-    <header class=" d-flex justify-content-evenly align-items-center py-3">
-        <div id="header-divs">
-            <a href="trainers.html">PERSONAL TRAINING</a>
-            <a href="fitCamp.html">GROUP CLASSES</a>
-            <a href="gym.html">THE GYM</a>
+    <nav class="navbar navbar-expand-lg">
+        <div class="container-fluid">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-center p-3" id="navbarNavAltMarkup">
+                <div id="header" class="navbar-nav align-items-center fs-5">
+                    <a class="nav-link" aria-current="page" href="index.html">HOME</a>
+                    <a class="nav-link" href="trainers.html">PERSONAL TRAINING</a>
+                    <a class="nav-link" href="fitCamp.html">GROUP CLASSES</a>
+                    <a class="navbar-brand" href="index.html">
+                        <img src="PHOTOS/ATPfront1.png" alt="Bootstrap" width="300">
+                    </a>
+                    <a class="nav-link" href="gym.html">THE GYM</a>
+                    <a class="nav-link" href="mission.html">OUR MISSION</a>
+                    <a class="nav-link" href="contact.html">CONTACT US</a>
+                </div>
+            </div>
         </div>
-        <div id="header-divs">
-            <a href="index.html">
-                <img src="PHOTOS/ATPfront1.png" alt="ATP LOGO" id="headerLogo" width="300px">
-            </a>
-        </div>
-        <div id="header-divs">
-            <a href="mission.html">OUR MISSION</a>
-            <a href="contact.html">CONTACT US</a>
-        </div>
-    </header>
+    </nav>
 
     <!-- MAIN CONTAINER -->
-    <div id="mainContainer" class="d-flex justify-content-center align-items-center">
+    <div id="mainContainer" class="d-flex justify-content-center align-items-center text-center">
         <h1 class="align-self-center">Achieve Your <span>True</span> Potential</h1>
     </div>
 
@@ -59,7 +64,6 @@
                     CONSULTATION</button></a>
         </div>
     </div>
-
 
     <!-- CARDS -->
     <div class="p-5" style="position: relative; background-color: #540b0e;">
